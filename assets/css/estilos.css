@@ -1,0 +1,7 @@
+@import url(reset.css);
+@import url(variaveis.css);
+
+body {
+    background-color: var(--cinza-escuro-background);
+    font-size: var(--tamanho-fonte);
+}

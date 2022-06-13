@@ -1,0 +1,58 @@
+
+
+.titulo-centro {
+    margin-bottom: 4rem;
+    font-family: var(--fonte-menu);
+    font-size: var(--tamanho-fonte-titulo);
+    font-weight: var(--peso-fonte-menu);
+    color: var(--cor-fonte-principal);
+    text-align: center;
+}
+
+.icon--formacao {
+    display: inline-block;
+    background-image: url(../icons/iconeFormacao.png);
+    background-repeat: no-repeat;
+    width:63px;
+    height:45px;
+    margin: 0 16px;
+    transform: translateY(20%);
+}
+
+
+.formacao {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2em;
+    margin: 64px;
+}
+
+.card {
+    box-shadow: 0 0 16px var(--cor-destaque);
+    padding:1em;
+    width:30%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;;
+}
+
+.titulo_card {
+    color: var(--cor-fonte-principal);
+    font-family: var(--fonte-principal);
+    font-size: var(--titulo-card);
+
+}
+
+.subtitulo_card {
+    color:var(--cor-fonte-principal);
+    font-family: var(--fonte-principal);
+    font-size: var(--subtitulo-card);
+
+    padding-top: 0.5em ;
+}
+
+.link__certificado {
+    color:#92A4B3;
+}
+

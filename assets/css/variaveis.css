@@ -1,0 +1,21 @@
+:root {
+    --tamanho-fonte:24px;
+    --tamanho-fonte-titulo:1.66em;
+
+    --cinza-medio-menu: #4C555C;
+    --cinza-escuro-menu: #32383D;
+    --cor-fonte-menu: #cccccc;
+    --fonte-menu:'Jura', sans-serif;
+    --peso-fonte-menu: 700;
+
+    --cinza-escuro-background: #202529;
+    
+
+    --fonte-principal:'Jura', sans-serif;
+    --cor-fonte-principal: #cccccc;
+
+    --cor-destaque: #1BC6B4;
+
+    --titulo-card:30px;
+    --subtitulo-card:24px;
+}
