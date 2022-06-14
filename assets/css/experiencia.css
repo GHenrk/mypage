@@ -1,0 +1,21 @@
+.experiencia {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2em;
+    margin: 64px 0;
+}
+
+.icon--experiencia {
+    display: inline-block;
+    background-image: url(../icons/iconeExperiencia.png);
+    background-repeat: no-repeat;
+    width:45px;
+    height:65px;
+    margin: 0 16px;
+    transform: translateY(30%);
+}
+
+.card__experiencia {
+    width:35%;
+}

@@ -7,7 +7,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height:2.5em;   
+    height:3em;   
+    overflow:hidden;
 }
 
 .titulo__cabecalho {
@@ -27,9 +28,14 @@
 
 .menu__item {
     display:inline-block;
-    padding: 0.7em;
+    padding: 1em;
     background-color: var(--cinza-medio-menu);
     color: var(--cor-fonte-menu);
     font-family: var(--fonte-menu);
+    transition: 0.5s;
 }
 
+.menu__item:hover {
+    text-shadow: 0 0 2px var(--cor-destaque);
+    border-bottom: 8px solid var(--cor-destaque);
+}

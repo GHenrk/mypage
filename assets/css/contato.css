@@ -1,0 +1,84 @@
+.contato {
+    margin:6rem auto;
+    width:1440px;
+}
+
+.icon--contato {
+    display: inline-block;
+    background-image: url(../icons/iconeContato.png);
+    background-repeat: no-repeat;
+    width:63px;
+    height:63px;
+    margin: 0 16px;
+    transform: translateY(40%);
+}
+
+form {
+    width:50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 3em 3em 3em;
+    grid-template-columns: 15rem 15rem;
+    gap:0.8em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-padrao {
+    box-sizing: border-box;
+    padding:0.5em;
+    margin:0.5em 0;
+    border-radius: 5px;
+}
+
+.input--nome {
+    grid-column: 1;
+}
+
+.input--sobrenome {
+    grid-column: 2;
+}
+
+.input--area {
+    grid-column: span 2;
+}
+.input--enviar {
+    box-sizing: border-box;
+    width:12rem;
+    margin:0 auto;
+    grid-column: span 2;
+    background-color: var(--cor-destaque);
+    border-radius: 15px;
+    border: 1px solid var(--cinza-escuro-background);
+    font-family: var(--fonte-principal);
+    padding:1em 0;
+    color: #000;
+    transition: 1s;
+}
+
+.input--enviar:hover {
+    color:#ccc;
+    background-color: var(--cinza-escuro-background);
+    box-shadow: 0 0 16px var(--cor-destaque);
+    font-weight: var(--peso-fonte-menu);
+}
+
+.icones__lista {
+    margin:3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:24px;
+}
+
+.icones__imagem {
+    width:45px;
+
+}
+
+.icon__codepen {
+    width:50px;
+    border-radius: 25px;
+}

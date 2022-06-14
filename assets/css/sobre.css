@@ -1,10 +1,11 @@
 .sobre {
-    margin:16.6rem auto;
+    margin:15rem auto;
     width:1440px;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
+    padding-top: 4em;
 }
 
 .sobre--imagem {
@@ -41,6 +42,7 @@
     color: var(--cor-fonte-principal);
     line-height: 1em;
     margin: 1.5rem 0;
+    font-size: var(--tamanho-fonte-sobre);
 }
 
 .conteudo__sobre--destaque {

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/sobre.css">
     <link rel="stylesheet" href="assets/css/formacao.css">
     <link rel="stylesheet" href="assets/css/projetos.css">
+    <link rel="stylesheet" href="assets/css/experiencia.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
     <title>Gustavo Henrique</title>
 </head>
 <body>
@@ -22,8 +24,8 @@
                 <li class="menu__item"><a href="#sobre">Sobre</a></li>
                 <li class="menu__item"><a href="#formacao">Formação</a></li>
                 <li class="menu__item"><a href="#projetos">Projetos</a></li>
-                <li class="menu__item"><a href="">Experiência</a></li>
-                <li class="menu__item"><a href="">Contato</a></li>
+                <li class="menu__item"><a href="#experiencia">Experiência</a></li>
+                <li class="menu__item"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -47,11 +49,11 @@
             </aside>
             <aside class="card">
                 <h3 class="titulo_card">HTML e CSS</h3>
-                <p class="subtitulo_card">Alura || <a href="#" class="link__certificado">Visualizar certificado</a></p>
+                <p class="subtitulo_card">Alura || <a href="https://cursos.alura.com.br/degree/certificate/8d80f985-bc01-4c0a-aeb6-4397b5814de1" target="_blank" class="link__certificado">Visualizar certificado</a></p>
             </aside>
             <aside class="card">
                 <h3 class="titulo_card">Iniciante em Programação</h3>
-                <p class="subtitulo_card">Alura || <a href="#" class="link__certificado">Visualizar certificado</a></p>
+                <p class="subtitulo_card">Alura || <a href="https://cursos.alura.com.br/degree/certificate/e8495be6-1753-4fb9-8273-0c646ffcc8cd" target="_blank" class="link__certificado">Visualizar certificado</a></p>
             </aside>
             <aside class="card">
                 <h3 class="titulo_card">Ensino médio</h3>
@@ -65,13 +67,57 @@
 
         <section class="projetos" id="projetos">
             <h3 class="titulo-centro titulo__projetos"><i class="icon--projetos" aria-hidden="true"></i>Projetos</h3>
-            <aside class="card_projetos card__piano">
+            <aside class="card_projetos card__1">
                 <img src="assets/img/imagemPiano.jpeg" alt="Imagem de um Piano" class="img_projetos">
                 <p class="titulo_card titulo_card--projetos">Mini Piano Virtual</p>
-                <p class="link_card">Ver Projeto</p>
+                <p class="link_card"><a href="#">Ver Projeto</a></p>
+            </aside>
+            <aside class="card_projetos card__2">
+                <img src="assets/img/mentalista.PNG" alt="Imagem do Mentalista" class="img_projetos">
+                <p class="titulo_card titulo_card--projetos">Mentalista</p>
+                <p class="link_card"><a href="#">Ver Projeto</a></p>
+            </aside>
+            <aside class="card_projetos card__3">
+                <img src="assets/img/calculadora de média.PNG" alt="Foto da Calculadora de médias" class="img_projetos">
+                <p class="titulo_card titulo_card--projetos">Calculadora de Médias</p>
+                <p class="link_card"><a href="#">Ver Projeto</a></p>
+            </aside>
+            <aside class="card_projetos card__4">
+                <img src="assets/img/tabela de classificacao.PNG" alt="Imagem da Tabela de classificacao" class="img_projetos">
+                <p class="titulo_card titulo_card--projetos">Tabela de Classificação</p>
+                <p class="link_card"><a href="#">Ver Projeto</a></p>
             </aside>
         </section>
 
+        <section id="experiencia" class="experiencia">
+            <h2 class="titulo-centro"><i class="icon--experiencia" aria-hidden="true"></i>Experiência</h2>
+            <aside class="card card__experiencia">
+                <h3 class="titulo_card">Fresador e Programador CNC</h3>
+                <p class="subtitulo_card">PowerCil - Automação Industrial || 06/2019 - Atual</p>
+            </aside>
+            <aside class="card card__experiencia">
+                <h3 class="titulo_card">Auxiliar de Almoxarife</h3>
+                <p class="subtitulo_card">3R Ferramentaria e Usinagem || 05/2015 - 09/2016</p>
+            </aside>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2 class="titulo-centro"><i class="icon--contato" aria-hidden="true"></i>Contato</h2>
+            <form>
+				<input type="text" id="nomesobrenome" class="input-padrao input--nome" required placeholder="Insira aqui seu nome">
+				<input type="email" id="email"  class="input-padrao input--sobrenome" required placeholder="E-mail">
+				<textarea id="mensagem"  class="input-padrao input--area" required placeholder="Mensagem"></textarea>
+                <input type="submit" value="Enviar" class="btn__input input--enviar">
+			</form>
+            <aside class="icones__redes">
+                <ul class="icones__lista">
+                    <li><a href="#"><img src="assets/icons/linkedin.png" alt="Icone Linkedin" class="icones__imagem"></a></li>
+                    <li><a href="#"><img src="assets/icons/instagram.webp" alt="Icone Instagram" class="icones__imagem"></a></li>
+                    <li><a href="#"><img src="assets/icons/github-braco.png" alt="GitHub Icone" class="icones__imagem github--icon"></a></li>
+                    <li><a href="#"><img src="assets/icons/codepenbranco.png" alt="CodePen Icone" class="icones__imagem icon__codepen"></a></li>
+                </ul>
+            </aside>
+        </section>
     </main>
     
 </body>

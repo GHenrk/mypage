@@ -1,6 +1,8 @@
 :root {
-    --tamanho-fonte:24px;
-    --tamanho-fonte-titulo:1.66em;
+    --tamanho-fonte:18px;
+    --tamanho-fonte-titulo:2.2rem;
+
+    --tamanho-fonte-sobre:24px;
 
     --cinza-medio-menu: #4C555C;
     --cinza-escuro-menu: #32383D;
@@ -12,10 +14,14 @@
     
 
     --fonte-principal:'Jura', sans-serif;
-    --cor-fonte-principal: #cccccc;
+    --cor-fonte-principal: #CCCCCC;
 
     --cor-destaque: #1BC6B4;
 
-    --titulo-card:30px;
-    --subtitulo-card:24px;
+    --titulo-card:1.5rem;
+    --subtitulo-card:1.2rem;
 }
+html {
+    scroll-behavior: smooth;
+}
+

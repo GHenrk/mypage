@@ -1,13 +1,20 @@
 .projetos {
-    margin:8rem 0;
+    box-sizing: border-box;
+    width:1440px;
+    margin:4rem auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 8em 1fr 1fr;
+    gap: 24px;
+    row-gap:64px;
+    justify-items: center;
+    align-items: center;
 }
 
 .titulo__projetos {
+    margin-top: 4rem;
     grid-row: 1;
-    grid-column: span 4;
+    grid-column: span 2;
 }
 .icon--projetos {
     display:inline-block;
@@ -20,10 +27,10 @@
 }
 
 .card_projetos {
-    background-color: var(--cinza-escuro-menu);
+    background-color: var(--cinza-escuro-background);
     box-sizing: border-box;
     box-shadow: 0 0 16px var(--cor-destaque);
-    width:40rem;
+    width:35rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +41,7 @@
 
 .img_projetos {
     width:30rem;
-    height:25rem;
+    height:20rem;
     display:inline-block;
     border-radius:5px;
 }
@@ -43,7 +50,29 @@
     margin:0.5em 0;
 }
 
-.card__piano {
+.card__1 {
+    grid-row: 2;
+    grid-column: 1;
+    
+}
+
+.card__2 {
     grid-row: 2;
     grid-column: 2;
+    
+}
+.card__3 {
+    grid-row: 3;
+    grid-column: 1;
+    
+}
+
+.card__4 {
+    grid-row: 3;
+    grid-column: 2;
+   
+}
+
+.link_card {
+    color: var(--cor-destaque);
 }
