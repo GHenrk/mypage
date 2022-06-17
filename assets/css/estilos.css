@@ -5,3 +5,16 @@ body {
     background-color: var(--cinza-escuro-background);
     font-size: var(--tamanho-fonte);
 }
+
+footer {
+    background-color: var(--cinza-escuro-menu);
+    padding:2em;
+    text-align: center;
+
+}
+
+.copyright {
+    color:var(--cor-fonte-principal);
+    font-size: 1em;
+    font-family: var(--fonte-menu);
+}
