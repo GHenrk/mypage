@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../icons/icones.ttf)
+}
+
 .cabecalho {
     position:fixed;
     top: 0;
@@ -19,11 +24,16 @@
 }
 
 .menu__lista {
+    position: static;
     display:flex;
     justify-content:space-between;
     gap: 16px;
     align-items: center;
 
+}
+
+.menu__mobile {
+    display: none;
 }
 
 .menu__item {
@@ -40,30 +50,72 @@
     border-bottom: 8px solid var(--cor-destaque);
 }
 
+.cabecalho__menu {
+    display: none;
+}
 @media screen and (max-width:480px) {
     .cabecalho {
-        position: fixed;
+        position: static;
         width:100vw;
-        height: auto;
-        display:grid;
-        grid-template-rows: 3em 1fr;
-        align-items: center;
-        justify-content: center;
-        
-
+        margin: 0 auto;
     }
+    
+    .cabecalho__menu {
+        display: block;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        background: none;
+    }
+    .cabecalho__menu i::before {
+        font-family:'icones';
+        color: var(--cor-fonte-menu);
+        content: "\e904";
+        font-size: 26px;
+        
+    }
+    
+        
     .titulo__cabecalho {
         text-align: center;
         padding:1em 0;
         font-size:1.5em;
-        grid-row: 1;
-        display: inline-block;
+        display: block;
     }
 
-    .menu__lista {
-        grid-row: 2;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+    .menu {
+        display: none;
+    }
+   
+
+    .menu__mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap:1.5em;
+        width:70vw;
+        background-color: var(--cinza-escuro-background);
+        position: absolute;
+        left:-100vw;
+        padding-top: 0;
+        padding-bottom: 2em;
+        transition: 0.25s;
+
+    }
+
+    .menu__mobile--ativo {
+        left: 0;
+        top:5em;
+        transition: 0.25s;
+    }
+
+    .menu__item {
+        margin-top: 0;
+        box-sizing: border-box;
+        text-align: center;
+        width:inherit;
+        border-radius:1em;
     }
 
 }

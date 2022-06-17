@@ -37,8 +37,7 @@
     padding: 1em;
     border-radius: 5px;
 
-    box-shadow: 16px 16px 32px #1a1e22,
-                -16px -16px 32px #262c30;;
+    box-shadow: 0px 0px 10px var(--cor-destaque);
 }
 
 .img_projetos {

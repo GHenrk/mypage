@@ -18,6 +18,7 @@
 </head>
 <body>
     <header class="cabecalho">
+        <button class="cabecalho__menu" id="btnMenu" aria-label="Menu"><i></i></button>
         <h1 class="titulo__cabecalho">Gustavo Henrique Dias</h1>
         <nav class="menu">
             <ul class="menu__lista">
@@ -29,7 +30,15 @@
             </ul>
         </nav>
     </header>
-
+    <nav class="menu-mobile">
+        <ul class="menu__mobile" id="menu-mobile">
+            <li class="menu__item"><a href="#sobre">Sobre</a></li>
+            <li class="menu__item"><a href="#formacao">Formação</a></li>
+            <li class="menu__item"><a href="#projetos">Projetos</a></li>
+            <li class="menu__item"><a href="#experiencia">Experiência</a></li>
+            <li class="menu__item"><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
     <main>
 
         <section id="sobre" class="sobre">
@@ -120,5 +129,6 @@
         </section>
     </main>
     
+    <script src="index.js"></script>
 </body>
 </html>
