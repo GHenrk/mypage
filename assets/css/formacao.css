@@ -57,3 +57,8 @@
     color:#92A4B3;
 }
 
+@media screen and (max-width:480px) {
+    .card {
+        width:80vw;
+    }
+}

@@ -19,3 +19,13 @@
 .card__experiencia {
     width:35%;
 }
+
+@media screen and (max-width: 480px) {
+
+    .experiencia {
+        margin: 2em 0;
+    }
+    .card__experiencia {
+        width:80vw;
+    }
+}

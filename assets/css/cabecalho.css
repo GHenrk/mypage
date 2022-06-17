@@ -32,10 +32,38 @@
     background-color: var(--cinza-medio-menu);
     color: var(--cor-fonte-menu);
     font-family: var(--fonte-menu);
-    transition: 0.5s;
+    transition: 500ms;
 }
 
 .menu__item:hover {
-    text-shadow: 0 0 2px var(--cor-destaque);
+    text-shadow: 0 0 2px var(--cor-destaque); 
     border-bottom: 8px solid var(--cor-destaque);
+}
+
+@media screen and (max-width:480px) {
+    .cabecalho {
+        position: fixed;
+        width:100vw;
+        height: auto;
+        display:grid;
+        grid-template-rows: 3em 1fr;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .titulo__cabecalho {
+        text-align: center;
+        padding:1em 0;
+        font-size:1.5em;
+        grid-row: 1;
+        display: inline-block;
+    }
+
+    .menu__lista {
+        grid-row: 2;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
 }

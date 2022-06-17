@@ -29,7 +29,6 @@
 .card_projetos {
     background-color: var(--cinza-escuro-background);
     box-sizing: border-box;
-    box-shadow: 0 0 16px var(--cor-destaque);
     width:35rem;
     display: flex;
     flex-direction: column;
@@ -37,6 +36,9 @@
     align-items: center;
     padding: 1em;
     border-radius: 5px;
+
+    box-shadow: 16px 16px 32px #1a1e22,
+                -16px -16px 32px #262c30;;
 }
 
 .img_projetos {
@@ -75,4 +77,26 @@
 
 .link_card {
     color: var(--cor-destaque);
+}
+
+@media screen and (max-width:480px) {
+    .projetos {
+        width:100vw;
+        display: flex;
+        flex-direction: column;
+        gap:2em;
+    }
+
+    .titulo__projetos {
+        margin: 1em 0;
+    }
+
+    .card_projetos {
+        width:80vw;
+    }
+
+    .img_projetos {
+        width:90%;
+        height:10em;
+    }
 }

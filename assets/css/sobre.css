@@ -49,3 +49,40 @@
     color: var(--cor-destaque);
 }
 
+@media screen and (max-width:480px) {
+    .sobre--imagem {
+        width:15rem;
+        margin: 0 auto;
+    }
+
+    .sobre {
+        width:100vw;
+        margin: 10em auto;
+        display: flex;
+        flex-direction: column;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-bottom: 2em;
+        
+    }
+    .conteudo__sobre--titulo {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .conteudo__sobre {
+        text-align: center;
+        padding-top: 2em;
+        flex-wrap: wrap;
+        width:100vw;
+        font-size: 1.1em;
+        line-height: 0.2em;
+    }
+
+    .conteudo__sobre--texto {
+        font-size: 1.2rem;
+        line-height: 1.2em;
+    }
+
+
+}
