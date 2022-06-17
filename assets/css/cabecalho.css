@@ -95,19 +95,22 @@
         justify-content: center;
         gap:1.5em;
         width:70vw;
-        background-color: var(--cinza-escuro-background);
+        background-color: var(--cinza-escuro-menu);
         position: absolute;
         left:-100vw;
-        padding-top: 0;
-        padding-bottom: 2em;
-        transition: 0.25s;
+        padding: 2em 0;
+       
+        transition: 0.5s;
 
     }
 
     .menu__mobile--ativo {
         left: 0;
-        top:5em;
-        transition: 0.25s;
+        top:3em;
+        transition: 0.5s;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    
     }
 
     .menu__item {
