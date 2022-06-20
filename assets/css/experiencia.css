@@ -17,7 +17,7 @@
 }
 
 .card__experiencia {
-    width:35%;
+    width:35vw;
 }
 
 @media screen and (max-width: 480px) {

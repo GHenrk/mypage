@@ -6,7 +6,7 @@
 .cabecalho {
     position:fixed;
     top: 0;
-    width:100%;
+    width:100vw;
     z-index: 1;
     background-color: var(--cinza-escuro-menu);
     display: flex;
@@ -14,6 +14,7 @@
     align-items: center;
     height:3em;   
     overflow:hidden;
+    box-sizing: border-box;
 }
 
 .titulo__cabecalho {

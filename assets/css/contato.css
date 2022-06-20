@@ -1,6 +1,6 @@
 .contato {
     margin:6rem auto;
-    width:1440px;
+    max-width:1440px;
 }
 
 .icon--contato {
@@ -14,7 +14,7 @@
 }
 
 form {
-    width:50%;
+    width:50vw;
     margin: 0 auto;
     box-sizing: border-box;
     display: grid;

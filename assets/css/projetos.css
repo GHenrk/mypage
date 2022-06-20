@@ -1,12 +1,12 @@
 .projetos {
     box-sizing: border-box;
-    width:1440px;
+    max-width:1024px;
     margin:4rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 8em 1fr 1fr;
     gap: 24px;
-    row-gap:64px;
+    row-gap:24px;
     justify-items: center;
     align-items: center;
 }
@@ -29,7 +29,7 @@
 .card_projetos {
     background-color: var(--cinza-escuro-background);
     box-sizing: border-box;
-    width:35rem;
+    width:30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,8 +41,8 @@
 }
 
 .img_projetos {
-    width:30rem;
-    height:20rem;
+    width:25em;
+    height:15em;
     display:inline-block;
     border-radius:5px;
 }
